@@ -2,7 +2,7 @@
 
 在这一步中，你需要更改 PirateName 类以实现从 JSON 文件中获取名字的列表。这将给你机会添加更多的名字进程序。 
 
-##创建 piratenames.json  
+## 创建 piratenames.json  
  
 使用`File > New File… ` 创建一个名为 `piratenames.json` 含有以下内容的 JSON 编码的文件。
 把文件放在 `1-blankbadge` 你以前写过的 Dart 和 HTML 文件的旁边。
@@ -34,11 +34,11 @@
         
 ```
 
-###关键信息
+### 关键信息
 
 - 文件包含 JSON 编码的 map ，它包含两个字符串列表。
 
-##编辑 piratebadge.html
+## 编辑 piratebadge.html
 显示输入框和按钮
 
 ```
@@ -54,7 +54,7 @@
 ```
 - Dart 代码启用输入框和按钮，然后名字成功从 JSON 文件中读出来。
 
-##编辑 piratebadge.dart
+## 编辑 piratebadge.dart
 在文件顶部添加一个 `import`  
 
 ```
@@ -175,7 +175,7 @@ main() async {
 - 使用 `try` 和 `catch` 来检测和处理错误。
 ___
 
-##运行应用
+## 运行应用
 通过 `File > Save All` 保存文件。
 
 运行应用通过正确点击 `piratebadge.html`，选择 `Run in Dartium`。
