@@ -2,7 +2,7 @@
 
 在这一步中，你改变的仅是 Dart 的代码，你可以自己为你新建的类起个名字，当创建这个类的一个实例，随机选择一个名字和称谓，或者你可以提供一个名字和称谓给构造函数。
 
-##编辑 piratebadge.dart
+## 编辑 piratebadge.dart
 在文件的顶部加入 import  
   
 ```
@@ -12,7 +12,7 @@ import 'dart:math' show Random;
 piratebadge.dart
 ```     
  
-##关键信息
+## 关键信息
 - 使用 `show` 关键字，你可以只导入你需要的类，方法，和属性。
 - `Random ` 提供了一个随机数的发生器。  
 
@@ -162,7 +162,7 @@ void generateBadge(Event e) {
 ```  
 - 在这种情况下，通过无参数调用构造函数。
 
-##运行应用  
+## 运行应用  
 使用 ` File > Save All` 保存。  
 
 运行应用正确点击 `piratebadge.html` 并选择 ` Run in Dartium` 。
