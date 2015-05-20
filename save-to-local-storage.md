@@ -1,6 +1,6 @@
-#步骤 5：保存到本地存储
+# 步骤 5：保存到本地存储
 在这一步中，你给应用一些持久性通过把标记的名字保存到本地存储当它每次改变时。当你重启应用时它初始化标记，从保存的名字里。
-##编辑 piratebadge.dart 
+## 编辑 piratebadge.dart 
 从 `dart:convert` 库里导入 JSON 转化器。
 
 ```
@@ -10,7 +10,7 @@ import 'dart:math' show Random;
 import 'dart:convert' show JSON;
 ```
 
-##关键信息
+## 关键信息
 
 - `JSON` 提供了方便的访问最常见的 JSON 的用例。  
 
@@ -100,7 +100,7 @@ void main() {
 - 从本地存储中初始化标记的名字。  
 
 ---
-##运行应用
+## 运行应用
 
 通过 `File > Save All` 保存文件。
 
